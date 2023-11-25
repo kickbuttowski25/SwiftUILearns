@@ -9,10 +9,20 @@ import SwiftUI
 
 struct SwiftUIImageView: View {
     var body: some View {
-        Image(systemName: "paperplane.fill")
-            //.resizable()
-            .font(.largeTitle)
+        Image("melio")
+            .resizable()
+           // .renderingMode(.template)
+          //  .foregroundColor(Color.red)
+            //.cornerRadius(200)
+            //.clipped()
+           // .aspectRatio(contentMode: .fill)
+          
+           // .font(.largeTitle)
             //.scaledToFill()
+           // .clipShape(
+            //    Circle()
+              //  Ellipse()
+         //   )
     }
 }
 
