@@ -12,7 +12,7 @@ struct SwiftUIGradientsView: View {
     var body: some View {
        RoundedRectangle(cornerRadius: 20)
             .fill(
-                AngularGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.4392156899, green: 0.01176470611, blue: 0.1921568662, alpha: 1)), Color(#colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1))]), center: .topLeading, angle: .degrees(45 + 180))
+                AngularGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.4392156899, green: 0.01176470611, blue: 0.1921568662, alpha: 1)), Color(#colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1))]), center: .topLeading, angle: .degrees(45 + 200))
                 
                // RadialGradient(gradient: Gradient(colors: [Color.red, Color.blue]), center: .leading, startRadius: 10, endRadius: 500)
                // LinearGradient(colors: [Color.red, Color.blue], startPoint: .leading, endPoint: .trailing)
