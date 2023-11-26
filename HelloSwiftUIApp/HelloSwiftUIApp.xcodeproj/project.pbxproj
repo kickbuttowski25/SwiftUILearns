@@ -13,6 +13,7 @@
 		6385BC8B2B11B3880049BAD6 /* SwiftSystemIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8A2B11B3880049BAD6 /* SwiftSystemIconsView.swift */; };
 		6385BC8D2B11DCF00049BAD6 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8C2B11DCF00049BAD6 /* SwiftUIImageView.swift */; };
 		6385BC8F2B13079E0049BAD6 /* SwiftUIFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8E2B13079E0049BAD6 /* SwiftUIFrameView.swift */; };
+		6385BC912B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC902B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift */; };
 		63C42C012B10510200FF6F2D /* HelloSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C002B10510200FF6F2D /* HelloSwiftUIAppApp.swift */; };
 		63C42C032B10510200FF6F2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C022B10510200FF6F2D /* ContentView.swift */; };
 		63C42C052B10510600FF6F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C42C042B10510600FF6F2D /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		6385BC8A2B11B3880049BAD6 /* SwiftSystemIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSystemIconsView.swift; sourceTree = "<group>"; };
 		6385BC8C2B11DCF00049BAD6 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
 		6385BC8E2B13079E0049BAD6 /* SwiftUIFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameView.swift; sourceTree = "<group>"; };
+		6385BC902B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewBackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		63C42BFD2B10510200FF6F2D /* HelloSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C42C002B10510200FF6F2D /* HelloSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		63C42C022B10510200FF6F2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				63C42C002B10510200FF6F2D /* HelloSwiftUIAppApp.swift */,
+				6385BC902B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift */,
 				6385BC8E2B13079E0049BAD6 /* SwiftUIFrameView.swift */,
 				638207872B10B98C0086B829 /* TextSwift.swift */,
 				63C42C022B10510200FF6F2D /* ContentView.swift */,
@@ -287,6 +290,7 @@
 				63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */,
 				6382078A2B10BDDB0086B829 /* SwiftUIColorsView.swift in Sources */,
 				6385BC8B2B11B3880049BAD6 /* SwiftSystemIconsView.swift in Sources */,
+				6385BC912B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
