@@ -10,6 +10,7 @@ import SwiftUI
 struct SwiftUIImageView: View {
     var body: some View {
         Image(systemName: "paperplane.fill")
+            .font(.largeTitle)
             //.resizable()
             .font(.largeTitle)
             //.scaledToFill()
