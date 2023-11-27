@@ -12,77 +12,78 @@ struct SwiftUIViewStacks: View {
     //HStacks: Horizontal
     //ZStacks: ZIndex(Back to frot)
     var body: some View {
-        ZStack {
+        ZStack  {
             Circle()
                 .fill(Color.yellow)
-                .frame(width: 350, height: 350)
+                .frame(width: 300, height: 300)
             Circle()
                 .fill(Color.clear)
-                .frame(width: 200, height: 200)
+                .frame(width: 190, height: 190)
                 .overlay(
-                        Circle()
-                            .fill(Color.red)
-                            .frame(width: 50, height: 50)
-                        , alignment: .topLeading
+                    Circle()
+                        .fill(Color.red)
+                        .frame(width: 50, height: 50)
+                    , alignment: .topLeading
                 )
                 .overlay(
-                        Circle()
-                            .fill(Color.red)
-                            .frame(width: 50, height: 50)
-                        , alignment: .topTrailing
+                    Circle()
+                        .fill(Color.red)
+                        .frame(width: 50, height: 50)
+                    , alignment: .topTrailing
                 )
                 .overlay(
-                        Ellipse()
-                            .fill(Color.red)
-                            .frame(width: 100, height: 50)
-                        , alignment: .bottom
+                    Ellipse()
+                        .fill(Color.red)
+                        .frame(width: 100, height: 50)
+                    , alignment: .bottom
                 )
             Rectangle()
                 .fill(Color.red)
                 .frame(width: 20, height: 45)
         }
+        .background(Color.red)
         
         
         
-//        ZStack {
-//            Circle()
-//                .fill(Color.red)
-//                .frame(width: 150, height: 150)
-//
-//            Circle()
-//                .fill(Color.green)
-//                .frame(width: 120, height: 120)
-//
-//
-//            Circle()
-//                .fill(Color.blue)
-//                .frame(width: 100, height: 100)
-//
-//                .overlay(
-//                    Text("Hi")
-//                        .foregroundColor(.white)
-//                        .font(.largeTitle)
-//
-//                )
-//        }
+        //        ZStack {
+        //            Circle()
+        //                .fill(Color.red)
+        //                .frame(width: 150, height: 150)
+        //
+        //            Circle()
+        //                .fill(Color.green)
+        //                .frame(width: 120, height: 120)
+        //
+        //
+        //            Circle()
+        //                .fill(Color.blue)
+        //                .frame(width: 100, height: 100)
+        //
+        //                .overlay(
+        //                    Text("Hi")
+        //                        .foregroundColor(.white)
+        //                        .font(.largeTitle)
+        //
+        //                )
+        //        }
         
-//        HStack {
-//            Rectangle()
-//                .fill(Color.green)
-//                .frame(width: 100, height: 100)
-//                .cornerRadius(20)
-//
-//            Rectangle()
-//                .fill(Color.green)
-//                .frame(width: 100, height: 100)
-//                .cornerRadius(20)
-//
-//            Rectangle()
-//                .fill(Color.green)
-//                .frame(width: 100, height: 100)
-//                .cornerRadius(20)
-//
-//        }
+        //        HStack {
+        //            Rectangle()
+        //                .fill(Color.green)
+        //                .frame(width: 100, height: 100)
+        //                .cornerRadius(20)
+        //
+        //            Rectangle()
+        //                .fill(Color.green)
+        //                .frame(width: 100, height: 100)
+        //                .cornerRadius(20)
+        //
+        //            Rectangle()
+        //                .fill(Color.green)
+        //                .frame(width: 100, height: 100)
+        //                .cornerRadius(20)
+        //
+        //        }
         //        VStackLayout {
         //            Circle()
         //                .fill(Color.orange)
