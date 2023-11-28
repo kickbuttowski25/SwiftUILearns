@@ -11,6 +11,7 @@
 		631E96C82B1481E100145653 /* SwiftUIViewSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96C72B1481E100145653 /* SwiftUIViewSpacer.swift */; };
 		631E96CA2B148C2D00145653 /* SwiftUIViewInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96C92B148C2D00145653 /* SwiftUIViewInitializer.swift */; };
 		631E96CC2B14D3F300145653 /* SwiftUIForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96CB2B14D3F300145653 /* SwiftUIForEachView.swift */; };
+		631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96CD2B15786C00145653 /* SwiftUIScrollView.swift */; };
 		638207882B10B98C0086B829 /* TextSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638207872B10B98C0086B829 /* TextSwift.swift */; };
 		6382078A2B10BDDB0086B829 /* SwiftUIColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638207892B10BDDB0086B829 /* SwiftUIColorsView.swift */; };
 		6382078C2B11A6210086B829 /* SwiftUIGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382078B2B11A6210086B829 /* SwiftUIGradientsView.swift */; };
@@ -51,6 +52,7 @@
 		631E96C72B1481E100145653 /* SwiftUIViewSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSpacer.swift; sourceTree = "<group>"; };
 		631E96C92B148C2D00145653 /* SwiftUIViewInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewInitializer.swift; sourceTree = "<group>"; };
 		631E96CB2B14D3F300145653 /* SwiftUIForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIForEachView.swift; sourceTree = "<group>"; };
+		631E96CD2B15786C00145653 /* SwiftUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollView.swift; sourceTree = "<group>"; };
 		638207872B10B98C0086B829 /* TextSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSwift.swift; sourceTree = "<group>"; };
 		638207892B10BDDB0086B829 /* SwiftUIColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorsView.swift; sourceTree = "<group>"; };
 		6382078B2B11A6210086B829 /* SwiftUIGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGradientsView.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				631E96C72B1481E100145653 /* SwiftUIViewSpacer.swift */,
 				631E96C92B148C2D00145653 /* SwiftUIViewInitializer.swift */,
 				631E96CB2B14D3F300145653 /* SwiftUIForEachView.swift */,
+				631E96CD2B15786C00145653 /* SwiftUIScrollView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
 			);
@@ -303,6 +306,7 @@
 				6385BC8D2B11DCF00049BAD6 /* SwiftUIImageView.swift in Sources */,
 				63C42C032B10510200FF6F2D /* ContentView.swift in Sources */,
 				63C42C012B10510200FF6F2D /* HelloSwiftUIAppApp.swift in Sources */,
+				631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */,
 				6385BC932B1361D10049BAD6 /* SwiftUIViewStacks.swift in Sources */,
 				6385BC8F2B13079E0049BAD6 /* SwiftUIFrameView.swift in Sources */,
 				631E96CC2B14D3F300145653 /* SwiftUIForEachView.swift in Sources */,
