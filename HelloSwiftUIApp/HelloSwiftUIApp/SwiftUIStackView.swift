@@ -10,8 +10,10 @@ import SwiftUI
 struct SwiftUIStackView: View {
     var body: some View {
         VStack {
-            Text("Hello")
-            Text("World!")
+            HStack{
+                Text("Hello")
+                Text("World!")
+            }
         }
     }
 }
