@@ -11,11 +11,13 @@ struct SwiftUIStackView: View {
     var body: some View {
         VStack {
             HStack{
-                ZStack{
-                    Text("Hello")
-                    Text("World!")
-                    Text("HI")
-                }
+                Text("Hello")
+                Text("World!")
+                
+            }
+            HStack{
+                Text("HI")
+                Text("There")
             }
         }
     }
