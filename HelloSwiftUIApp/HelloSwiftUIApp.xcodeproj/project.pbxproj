@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630823282B1C740100A4223C /* SwiftUIStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630823272B1C740100A4223C /* SwiftUIStateView.swift */; };
 		631E96C62B14726600145653 /* SwiftUIViewPaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96C52B14726600145653 /* SwiftUIViewPaddingAndSpacer.swift */; };
 		631E96C82B1481E100145653 /* SwiftUIViewSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96C72B1481E100145653 /* SwiftUIViewSpacer.swift */; };
 		631E96CA2B148C2D00145653 /* SwiftUIViewInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96C92B148C2D00145653 /* SwiftUIViewInitializer.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630823272B1C740100A4223C /* SwiftUIStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateView.swift; sourceTree = "<group>"; };
 		631E96C52B14726600145653 /* SwiftUIViewPaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewPaddingAndSpacer.swift; sourceTree = "<group>"; };
 		631E96C72B1481E100145653 /* SwiftUIViewSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSpacer.swift; sourceTree = "<group>"; };
 		631E96C92B148C2D00145653 /* SwiftUIViewInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewInitializer.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				631E96CF2B15812D00145653 /* SwiftUIGridView.swift */,
 				6373D9782B1C4389006D6C83 /* SwiftUISafeAreaView.swift */,
 				6373D97A2B1C4A53006D6C83 /* SwiftUIButtonView.swift */,
+				630823272B1C740100A4223C /* SwiftUIStateView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
 			);
@@ -320,6 +323,7 @@
 				6385BC8F2B13079E0049BAD6 /* SwiftUIFrameView.swift in Sources */,
 				631E96CC2B14D3F300145653 /* SwiftUIForEachView.swift in Sources */,
 				6373D97B2B1C4A53006D6C83 /* SwiftUIButtonView.swift in Sources */,
+				630823282B1C740100A4223C /* SwiftUIStateView.swift in Sources */,
 				63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */,
 				631E96D02B15812D00145653 /* SwiftUIGridView.swift in Sources */,
 				6382078A2B10BDDB0086B829 /* SwiftUIColorsView.swift in Sources */,
