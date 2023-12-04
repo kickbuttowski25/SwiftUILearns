@@ -48,3 +48,8 @@ struct SwiftUIExtractFunctionView_Previews: PreviewProvider {
         SwiftUIExtractFunctionView()
     }
 }
+extension SwiftUIExtractFunctionView {
+    func pressed(){
+        
+    }
+}
