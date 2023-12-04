@@ -12,26 +12,34 @@ struct SwiftUIExtractFunctionView: View {
     var body: some View {
         ZStack {
             background.edgesIgnoringSafeArea(.all)
-            
-            VStack {
-                Text("Title")
-                    .font(.largeTitle)
-                
-                Button {
-                    self.background = .yellow
-                } label: {
-                    Text("Press Me")
-                        .font(.title2)
-                        .foregroundColor(.white)
-                        .padding()
-                        .padding(.horizontal, 10)
-                        .background(Color.black)
-                        .cornerRadius(10)
-                }
-
-                
-            }
+            contentLayer
+       
         }
+    }
+    
+    var contentLayer: some View {
+        VStack {
+            Text("Title")
+                .font(.largeTitle)
+            
+            Button {
+               buttonPressed()
+            } label: {
+                Text("Press Me")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .padding()
+                    .padding(.horizontal, 10)
+                    .background(Color.black)
+                    .cornerRadius(10)
+            }
+
+            
+        }
+    }
+    
+    func buttonPressed() {
+        self.background = .yellow
     }
 }
 
