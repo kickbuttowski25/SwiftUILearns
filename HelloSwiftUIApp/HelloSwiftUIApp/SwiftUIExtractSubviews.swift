@@ -10,28 +10,42 @@ import SwiftUI
 struct SwiftUIExtractSubviews: View {
     var body: some View {
         ZStack {
-            MYItem()
+            Color.cyan.edgesIgnoringSafeArea(.all)
+            contentLayer
         }
+    }
+    var contentLayer: some View {
+        HStack {
+            MYItem(title: "Apple", count: 2, color: .red)
+            MYItem(title: "Oranges", count: 3, color: .orange)
+            MYItem(title: "Bananas", count: 3, color: .yellow)
+        }
+    }
+}
+
+
+struct MYItem: View {
+    
+    let title: String
+    let count: Int
+    let color: Color
+    
+    var body: some View {
+        VStack{
+            Text("\(count)")
+            Text(title)
+        }
+        .font(.title2)
+        .foregroundColor(Color.white)
+        .padding()
+        .background(color)
+        .cornerRadius(15)
+        .shadow(radius: 15)
     }
 }
 
 struct SwiftUIExtractSubviews_Previews: PreviewProvider {
     static var previews: some View {
         SwiftUIExtractSubviews()
-    }
-}
-
-struct MYItem: View {
-    var body: some View {
-        VStack{
-            Text("1")
-            Text("Apples")
-        }
-        .font(.largeTitle)
-        .foregroundColor(Color.white)
-        .padding()
-        .background(Color.red)
-        .cornerRadius(15)
-        .shadow(radius: 15)
     }
 }
