@@ -11,16 +11,27 @@ struct SwiftUIConditionalView: View {
     @State var showCircle: Bool = false
     @State var showRectangle: Bool = false
     @State var isLoading: Bool = true
-    
+    @State var isStartingState: Bool = false
+
     var body: some View {
         
         VStack(spacing: 20) {
-            if isLoading {
-                ProgressView()
-                    .frame(width: 100, height: 100)
-                    .progressViewStyle(.circular)
-                    .fixedSize()
+            
+            Button("Button State \(isStartingState.description)") {
+                isStartingState.toggle()
             }
+            
+            RoundedRectangle(cornerRadius: isStartingState ? 15 : 20)
+                .fill(isStartingState ? Color.pink : Color.yellow)
+                .frame(
+                    width: isStartingState ? 100 : 200,
+                    height: isStartingState ? 100 : 200)
+//            if isLoading {
+//                ProgressView()
+//                    .frame(width: 100, height: 100)
+//                    .progressViewStyle(.circular)
+//                    .fixedSize()
+//            }
 //            Button("Circle Button \(showCircle.description)") {
 //                showCircle.toggle()
 //            }
