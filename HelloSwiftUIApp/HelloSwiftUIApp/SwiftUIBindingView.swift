@@ -9,12 +9,17 @@ import SwiftUI
 
 struct SwiftUIBindingView: View {
     @State var backgroundColor: Color = .green
+    @State var title: String = "Title"
+    
     var body: some View {
         ZStack {
             backgroundColor.edgesIgnoringSafeArea(.all)
             
             VStack {
-                ButtonView(backgroundColor: $backgroundColor)
+                Text(title)
+                    .foregroundColor(.white)
+                    .font(.title2)
+                ButtonView(backgroundColor: $backgroundColor, title: $title)
             }
         }
     }
@@ -22,16 +27,20 @@ struct SwiftUIBindingView: View {
 
 struct ButtonView: View {
     @Binding var backgroundColor: Color
+    @State var buttonColor: Color = .purple
+    @Binding var title: String
     
     var body: some View {
         Button {
             self.backgroundColor = .yellow
+            self.buttonColor = .cyan
+            self.title = "New title"
         } label: {
             Text("Button")
                 .foregroundColor(.white)
                 .padding()
                 .padding(.horizontal)
-                .background(Color.blue)
+                .background(buttonColor)
                 .cornerRadius(10)
         }
     }
