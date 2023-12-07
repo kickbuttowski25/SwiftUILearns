@@ -13,9 +13,9 @@ struct SwiftUIAnimationView: View {
     var body: some View {
         VStack {
             Button("Button") {
-                withAnimation(Animation.default) {
+                withAnimation(Animation.default
+                    .repeatForever(autoreverses: false)) {
                     isAnimation.toggle()
-
                 }
             }
             Spacer()
