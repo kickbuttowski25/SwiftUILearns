@@ -24,6 +24,7 @@
 		638368A62B1F8D8E007DCD61 /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368A52B1F8D8E007DCD61 /* SwiftUIBindingView.swift */; };
 		638368A82B202530007DCD61 /* SwiftUIConditionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368A72B202530007DCD61 /* SwiftUIConditionalView.swift */; };
 		638368AA2B20D1CD007DCD61 /* SwiftUIAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368A92B20D1CD007DCD61 /* SwiftUIAnimationView.swift */; };
+		638368AC2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368AB2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift */; };
 		6385BC8B2B11B3880049BAD6 /* SwiftSystemIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8A2B11B3880049BAD6 /* SwiftSystemIconsView.swift */; };
 		6385BC8D2B11DCF00049BAD6 /* SwiftUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8C2B11DCF00049BAD6 /* SwiftUIImageView.swift */; };
 		6385BC8F2B13079E0049BAD6 /* SwiftUIFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385BC8E2B13079E0049BAD6 /* SwiftUIFrameView.swift */; };
@@ -74,6 +75,7 @@
 		638368A52B1F8D8E007DCD61 /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
 		638368A72B202530007DCD61 /* SwiftUIConditionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIConditionalView.swift; sourceTree = "<group>"; };
 		638368A92B20D1CD007DCD61 /* SwiftUIAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationView.swift; sourceTree = "<group>"; };
+		638368AB2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationTimingView.swift; sourceTree = "<group>"; };
 		6385BC8A2B11B3880049BAD6 /* SwiftSystemIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSystemIconsView.swift; sourceTree = "<group>"; };
 		6385BC8C2B11DCF00049BAD6 /* SwiftUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageView.swift; sourceTree = "<group>"; };
 		6385BC8E2B13079E0049BAD6 /* SwiftUIFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				638368A52B1F8D8E007DCD61 /* SwiftUIBindingView.swift */,
 				638368A72B202530007DCD61 /* SwiftUIConditionalView.swift */,
 				638368A92B20D1CD007DCD61 /* SwiftUIAnimationView.swift */,
+				638368AB2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
 			);
@@ -332,6 +335,7 @@
 				631E96C82B1481E100145653 /* SwiftUIViewSpacer.swift in Sources */,
 				631E96C62B14726600145653 /* SwiftUIViewPaddingAndSpacer.swift in Sources */,
 				6385BC8D2B11DCF00049BAD6 /* SwiftUIImageView.swift in Sources */,
+				638368AC2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift in Sources */,
 				63C42C032B10510200FF6F2D /* ContentView.swift in Sources */,
 				63C42C012B10510200FF6F2D /* HelloSwiftUIAppApp.swift in Sources */,
 				631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */,
