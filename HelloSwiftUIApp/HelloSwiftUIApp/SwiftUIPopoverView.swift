@@ -30,30 +30,36 @@ struct SwiftUIPopoverView: View {
 //            }
             
             // METHOD 2: TRANSITION
-            if showSheet {
-                NewScreen()
-                    .padding(.top, 100)
-                    .transition(.move(edge: .bottom))
-                    .animation(Animation.spring())
-            }
+//            ZStack {
+//                if showSheet {
+//                    NewScreen(showSheet: $showSheet)
+//                        .padding(.top, 100)
+//                        .transition(.move(edge: .bottom))
+//                        .animation(Animation.spring())
+//                }
+//            }
+//            .zIndex(2.0)
+                
             
             // METHOD 3: ANIMATION
-            
-            
+            NewScreen(showSheet: $showSheet)
+                .padding(.top, 100)
+                .offset(y: showSheet ? 0 : UIScreen.main.bounds.height)
+                .animation(Animation.spring())
         }
     }
 }
 
 struct NewScreen: View {
     @Environment(\.presentationMode) var presentationMode
- //   @Binding var showSheet: Bool
+    @Binding var showSheet: Bool
     
     var body: some View {
         ZStack(alignment: .topLeading) {
             Color.purple.edgesIgnoringSafeArea(.all)
             Button {
-                presentationMode.wrappedValue.dismiss()
-                //showSheet.toggle()
+               // presentationMode.wrappedValue.dismiss()
+                showSheet.toggle()
             } label: {
                 Image(systemName: "xmark")
                     .padding()
