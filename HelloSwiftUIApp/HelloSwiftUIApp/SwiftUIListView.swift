@@ -30,7 +30,7 @@ struct SwiftUIListView: View {
                     }
                     .onDelete(perform: delete)
                     .onMove(perform: move(from:to:))
-                    .listRowBackground(Color.orange) 
+                    .listRowBackground(Color.orange)
                     
                 }
                 Section(header:
@@ -66,19 +66,16 @@ struct SwiftUIListView: View {
     func delete(indexSet: IndexSet) {
         fruits.remove(atOffsets: indexSet)
         veggies.remove(atOffsets: indexSet)
-
     }
     
     func move(from: IndexSet, to : Int) {
         veggies.move(fromOffsets: from, toOffset: to)
         veggies.move(fromOffsets: from, toOffset: to)
-
     }
     
     func add() {
         fruits.append("Coconut")
         veggies.append("LadyFinger")
-
     }
 }
 
