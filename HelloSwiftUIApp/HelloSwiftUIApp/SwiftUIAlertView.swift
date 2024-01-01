@@ -13,6 +13,7 @@ struct SwiftUIAlertView: View {
             VStack {
                 Text("Hello")
                 Text("World!")
+                Image(systemName: "heart.fill")
             }
         }
     }
