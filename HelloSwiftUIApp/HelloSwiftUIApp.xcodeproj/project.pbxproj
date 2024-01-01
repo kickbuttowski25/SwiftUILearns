@@ -193,9 +193,9 @@
 				638368B22B273AE5007DCD61 /* SwiftUIPopoverView.swift */,
 				636FAA152B28612100FA3ADB /* SwiftUINaviagtionView.swift */,
 				636FAA172B28C81B00FA3ADB /* SwiftUIListView.swift */,
+				63593DEC2B4058FE00F5DB1D /* SwiftUIAlertView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
-				63593DEC2B4058FE00F5DB1D /* SwiftUIAlertView.swift */,
 			);
 			path = HelloSwiftUIApp;
 			sourceTree = "<group>";
