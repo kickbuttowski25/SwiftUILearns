@@ -45,6 +45,7 @@
 		63C42C1E2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C1D2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift */; };
 		63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */; };
 		63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */; };
+		63E281D82B4694EE00D1ABB5 /* SwiftUIContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D72B4694EE00D1ABB5 /* SwiftUIContextMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		63C42C1D2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShapes.swift; sourceTree = "<group>"; };
 		63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIActionSheetView.swift; sourceTree = "<group>"; };
+		63E281D72B4694EE00D1ABB5 /* SwiftUIContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContextMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
+				63E281D72B4694EE00D1ABB5 /* SwiftUIContextMenuView.swift */,
 			);
 			path = HelloSwiftUIApp;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				631E96D02B15812D00145653 /* SwiftUIGridView.swift in Sources */,
 				636FAA162B28612100FA3ADB /* SwiftUINaviagtionView.swift in Sources */,
 				638368A42B1DFA3A007DCD61 /* SwiftUIExtractSubviews.swift in Sources */,
+				63E281D82B4694EE00D1ABB5 /* SwiftUIContextMenuView.swift in Sources */,
 				638368A62B1F8D8E007DCD61 /* SwiftUIBindingView.swift in Sources */,
 				6308232A2B1C907B00A4223C /* SwiftUIExtractFunctionView.swift in Sources */,
 				6382078A2B10BDDB0086B829 /* SwiftUIColorsView.swift in Sources */,
