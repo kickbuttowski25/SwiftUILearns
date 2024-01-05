@@ -45,6 +45,7 @@
 		63C42C1E2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C1D2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift */; };
 		63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */; };
 		63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */; };
+		63E281DA2B46B85800D1ABB5 /* SwiftUITextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		63C42C1D2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShapes.swift; sourceTree = "<group>"; };
 		63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIActionSheetView.swift; sourceTree = "<group>"; };
+		63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				636FAA172B28C81B00FA3ADB /* SwiftUIListView.swift */,
 				63593DEC2B4058FE00F5DB1D /* SwiftUIAlertView.swift */,
 				63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */,
+				63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
 			);
@@ -380,6 +383,7 @@
 				630823282B1C740100A4223C /* SwiftUIStateView.swift in Sources */,
 				63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */,
 				638368AF2B217CE1007DCD61 /* SwiftUITransitionView.swift in Sources */,
+				63E281DA2B46B85800D1ABB5 /* SwiftUITextFieldView.swift in Sources */,
 				631E96D02B15812D00145653 /* SwiftUIGridView.swift in Sources */,
 				636FAA162B28612100FA3ADB /* SwiftUINaviagtionView.swift in Sources */,
 				638368A42B1DFA3A007DCD61 /* SwiftUIExtractSubviews.swift in Sources */,
