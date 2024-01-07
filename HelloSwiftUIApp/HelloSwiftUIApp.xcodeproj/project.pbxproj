@@ -46,6 +46,7 @@
 		63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */; };
 		63DFB5822B49886E00968596 /* SwiftUITextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5812B49886E00968596 /* SwiftUITextEditorView.swift */; };
 		63DFB5842B49B62600968596 /* SwiftUIToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5832B49B62500968596 /* SwiftUIToggleView.swift */; };
+		63DFB5882B4B182A00968596 /* SwiftUIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */; };
 		63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */; };
 		63E281DA2B46B85800D1ABB5 /* SwiftUITextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */; };
 /* End PBXBuildFile section */
@@ -110,6 +111,7 @@
 		63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShapes.swift; sourceTree = "<group>"; };
 		63DFB5812B49886E00968596 /* SwiftUITextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorView.swift; sourceTree = "<group>"; };
 		63DFB5832B49B62500968596 /* SwiftUIToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToggleView.swift; sourceTree = "<group>"; };
+		63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPickerView.swift; sourceTree = "<group>"; };
 		63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIActionSheetView.swift; sourceTree = "<group>"; };
 		63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,6 +208,7 @@
 				63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */,
 				63DFB5812B49886E00968596 /* SwiftUITextEditorView.swift */,
 				63DFB5832B49B62500968596 /* SwiftUIToggleView.swift */,
+				63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */,
 				63C42C042B10510600FF6F2D /* Assets.xcassets */,
 				63C42C062B10510600FF6F2D /* Preview Content */,
 			);
@@ -379,6 +382,7 @@
 				631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */,
 				638368B32B273AE5007DCD61 /* SwiftUIPopoverView.swift in Sources */,
 				63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */,
+				63DFB5882B4B182A00968596 /* SwiftUIPickerView.swift in Sources */,
 				63DFB5822B49886E00968596 /* SwiftUITextEditorView.swift in Sources */,
 				636FAA182B28C81B00FA3ADB /* SwiftUIListView.swift in Sources */,
 				6385BC932B1361D10049BAD6 /* SwiftUIViewStacks.swift in Sources */,
