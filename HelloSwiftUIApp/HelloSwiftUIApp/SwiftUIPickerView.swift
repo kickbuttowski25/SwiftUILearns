@@ -13,6 +13,11 @@ struct SwiftUIPickerView: View {
     
     init() {
         UISegmentedControl.appearance().selectedSegmentTintColor = .red
+        
+        let attributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white
+        ]
+        UISegmentedControl.appearance().setTitleTextAttributes(attributes, for: .selected)
     }
     var body: some View {
         Picker("Picker", selection: $selection) {
