@@ -16,6 +16,7 @@
 		631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96CD2B15786C00145653 /* SwiftUIScrollView.swift */; };
 		631E96D02B15812D00145653 /* SwiftUIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E96CF2B15812D00145653 /* SwiftUIGridView.swift */; };
 		63593DED2B4058FE00F5DB1D /* SwiftUIAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63593DEC2B4058FE00F5DB1D /* SwiftUIAlertView.swift */; };
+		635F44242B4BAFA800B3C45F /* SwiftUIColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F44232B4BAFA800B3C45F /* SwiftUIColorPickerView.swift */; };
 		636FAA162B28612100FA3ADB /* SwiftUINaviagtionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636FAA152B28612100FA3ADB /* SwiftUINaviagtionView.swift */; };
 		636FAA182B28C81B00FA3ADB /* SwiftUIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636FAA172B28C81B00FA3ADB /* SwiftUIListView.swift */; };
 		6373D9792B1C4389006D6C83 /* SwiftUISafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373D9782B1C4389006D6C83 /* SwiftUISafeAreaView.swift */; };
@@ -46,6 +47,7 @@
 		63C42C2B2B1051DF00FF6F2D /* AppShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */; };
 		63DFB5822B49886E00968596 /* SwiftUITextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5812B49886E00968596 /* SwiftUITextEditorView.swift */; };
 		63DFB5842B49B62600968596 /* SwiftUIToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5832B49B62500968596 /* SwiftUIToggleView.swift */; };
+		63DFB5882B4B182A00968596 /* SwiftUIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */; };
 		63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */; };
 		63E281DA2B46B85800D1ABB5 /* SwiftUITextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +79,7 @@
 		631E96CD2B15786C00145653 /* SwiftUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollView.swift; sourceTree = "<group>"; };
 		631E96CF2B15812D00145653 /* SwiftUIGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGridView.swift; sourceTree = "<group>"; };
 		63593DEC2B4058FE00F5DB1D /* SwiftUIAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAlertView.swift; sourceTree = "<group>"; };
+		635F44232B4BAFA800B3C45F /* SwiftUIColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorPickerView.swift; sourceTree = "<group>"; };
 		636FAA152B28612100FA3ADB /* SwiftUINaviagtionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINaviagtionView.swift; sourceTree = "<group>"; };
 		636FAA172B28C81B00FA3ADB /* SwiftUIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListView.swift; sourceTree = "<group>"; };
 		6373D9782B1C4389006D6C83 /* SwiftUISafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISafeAreaView.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 		63C42C2A2B1051DF00FF6F2D /* AppShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShapes.swift; sourceTree = "<group>"; };
 		63DFB5812B49886E00968596 /* SwiftUITextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditorView.swift; sourceTree = "<group>"; };
 		63DFB5832B49B62500968596 /* SwiftUIToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToggleView.swift; sourceTree = "<group>"; };
+		63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPickerView.swift; sourceTree = "<group>"; };
 		63E281D52B44239C00D1ABB5 /* SwiftUIActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIActionSheetView.swift; sourceTree = "<group>"; };
 		63E281D92B46B85800D1ABB5 /* SwiftUITextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +176,7 @@
 		63C42BFF2B10510200FF6F2D /* HelloSwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				63DFB58B2B4BAF2F00968596 /* Pickers */,
 				638368AD2B217C7B007DCD61 /* Animations */,
 				63C42C002B10510200FF6F2D /* HelloSwiftUIAppApp.swift */,
 				6385BC902B130B400049BAD6 /* SwiftUIViewBackgroundAndOverlay.swift */,
@@ -235,6 +240,15 @@
 				63C42C1D2B10510700FF6F2D /* HelloSwiftUIAppUITestsLaunchTests.swift */,
 			);
 			path = HelloSwiftUIAppUITests;
+			sourceTree = "<group>";
+		};
+		63DFB58B2B4BAF2F00968596 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				63DFB5872B4B182A00968596 /* SwiftUIPickerView.swift */,
+				635F44232B4BAFA800B3C45F /* SwiftUIColorPickerView.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,12 +387,14 @@
 				631E96C82B1481E100145653 /* SwiftUIViewSpacer.swift in Sources */,
 				631E96C62B14726600145653 /* SwiftUIViewPaddingAndSpacer.swift in Sources */,
 				6385BC8D2B11DCF00049BAD6 /* SwiftUIImageView.swift in Sources */,
+				635F44242B4BAFA800B3C45F /* SwiftUIColorPickerView.swift in Sources */,
 				638368AC2B2178A7007DCD61 /* SwiftUIAnimationTimingView.swift in Sources */,
 				63C42C032B10510200FF6F2D /* ContentView.swift in Sources */,
 				63C42C012B10510200FF6F2D /* HelloSwiftUIAppApp.swift in Sources */,
 				631E96CE2B15786C00145653 /* SwiftUIScrollView.swift in Sources */,
 				638368B32B273AE5007DCD61 /* SwiftUIPopoverView.swift in Sources */,
 				63E281D62B44239C00D1ABB5 /* SwiftUIActionSheetView.swift in Sources */,
+				63DFB5882B4B182A00968596 /* SwiftUIPickerView.swift in Sources */,
 				63DFB5822B49886E00968596 /* SwiftUITextEditorView.swift in Sources */,
 				636FAA182B28C81B00FA3ADB /* SwiftUIListView.swift in Sources */,
 				6385BC932B1361D10049BAD6 /* SwiftUIViewStacks.swift in Sources */,
